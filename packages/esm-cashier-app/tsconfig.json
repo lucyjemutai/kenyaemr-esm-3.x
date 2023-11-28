@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["../esm-billing-app/src/**/*"],
+  "exclude": ["../esm-billing-app/src/**/*.test.tsx", "../esm-billing-app/src/**/*.outdated.tsx"]
+}
